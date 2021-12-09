@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <title>HTML Forms</title>
+    </head>
+    <body>
+        <h1>Login form</h1>
+        <form>
+            <label>Username: </label>
+            <input type="text" placeholder="enter username" size="50" /><br><br>
+
+            <label>Password</label>
+            <input type="password" placeholder="your password" size="50"><br><br>
+
+            <label><input type="checkbox">Remember me</label><br><br>
+
+            <label>User type: </label>
+            <label> <input type="radio" name="adm">Administrator</label>
+            <label> <input type="radio" name="adm">Staff</label><br><br>
+
+            <input type="submit" value="Log in" />
+            <input type="reset" value="Clear" />
+        </form>
+    </body>
+</html>
